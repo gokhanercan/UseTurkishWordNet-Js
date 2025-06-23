@@ -1,3 +1,7 @@
-# usage 
-cd app 
+# Usage 
+
+```bash
+cd app
 node server.js
+```
+
