@@ -1,10 +1,12 @@
 // @ts-check
 /** @type {import('nlptoolkit-wordnet/dist/WordNet.js').WordNet} */
 
+// CommonJS
 // const express = require('express');
-import express from 'express';
-
 // const { WordNet } = require('nlptoolkit-wordnet/dist/WordNet');
+
+// ESModule
+import express from 'express';
 import { WordNet } from 'nlptoolkit-wordnet/dist/WordNet.js';
 
 const wn = new WordNet();
