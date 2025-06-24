@@ -5,7 +5,7 @@
 // const express = require('express');
 // const { WordNet } = require('nlptoolkit-wordnet/dist/WordNet');
 
-// ESModule
+// ESModule (set "type": "module" in package.json)
 import express from 'express';
 import { WordNet } from 'nlptoolkit-wordnet/dist/WordNet.js';
 
